@@ -42,7 +42,7 @@ dbt --version
 ```
 
 ### Setup dbt with snowflake as data platform
-- Go to snowflake query editor and run all query bellow in worksheet or you can copy paste ...
+- Go to snowflake query editor and run all query bellow in worksheet or you can copy paste setup_snowflake_dbt.sql
 ```
 -------------------------------------------
 -- dbt credentials
@@ -93,20 +93,20 @@ Also don't forget to copy dbt_project.yml to your dbt project folder location
 
 ### ELT Data Architecture & Data Modelling
 #### ELT Data Architecture
-![data_architecture]
+![data_architecture](https://github.com/saipulrx/dbt-snowflake/blob/main/assets/elt_data_architecture-data_architecture_snowflake.drawio.png)
 
 #### Data Modelling
 In this course, for Data Modelling use Kimbal's Method - Star Schema
 
 <b>ERD Conceptual</b>
-![erd conceptual]
+![erd conceptual](https://github.com/saipulrx/dbt-snowflake/blob/main/assets/erd-conceptual.drawio.png)
 
 <b>ERD Logical</b>
-![erd logical]
+![erd logical](https://github.com/saipulrx/dbt-snowflake/blob/main/assets/erd-logical.drawio.png)
 
 <b>ERD Physical</b>
 <br />
-![erd physical]
+![erd physical](https://github.com/saipulrx/dbt-snowflake/blob/main/assets/erd-physical.drawio.png)
 
 ### Upload Raw Data Files
 - Upload Raw data csv files in folder seeds use dbt cli command 

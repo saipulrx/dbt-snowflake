@@ -174,3 +174,10 @@ dbt docs generate
 ```
 dbt docs serve --port 8001
 ```
+
+# References :
+1. https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup
+2. https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/
+3. https://www.udemy.com/course/snowflake-masterclass
+4. https://www.udemy.com/course/analytics-engineering-bootcamp
+5. https://quickstarts.snowflake.com/guide/data_teams_with_dbt_core/#0
